@@ -10,6 +10,12 @@ public class App {
 		// TODO Auto-generated method stub
 		
 		/*
+		 * To create this project just use external tools configuration:
+		 * 			name: wsimport
+		 * 			location: <location of wsimport.exe in bin library of jdk>
+		 * 			working directory: project´s directory on your computer´s workspace
+		 * 			arguments: -keep -verbose -s ./src/ -d ./bin/ <url of wsdl from producer webservice> i.e. http://localhost:8080/requestEmployee?wsdl
+		 * 
 		 * This app will call the JaxWsServerExample WebService
 		 * Url: http://localhost:8080/requestEmployee?wsdl
 		 * 
