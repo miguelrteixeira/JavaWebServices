@@ -24,7 +24,7 @@ public class App {
 		
 		EmployeeServiceImpl webService = new EmployeeServiceImplService().getEmployeeServiceImplPort();
 		
-		Employee employee = webService.getEmployeeById("1");
+		Employee employee = webService.getEmployeeById("2");
 		
 		System.out.println(employee.getName());
 	}
