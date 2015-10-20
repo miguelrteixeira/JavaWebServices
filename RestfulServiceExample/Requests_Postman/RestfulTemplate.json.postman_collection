@@ -1,0 +1,133 @@
+{
+	"id": "e39171a8-04cb-b07f-91e3-f218be724396",
+	"name": "RestfulTemplate",
+	"description": "",
+	"order": [
+		"42d921d6-2058-ff1f-2237-03d219a66a61",
+		"c106d2ab-7c94-398d-6adc-225d4f5c4afc",
+		"4fb4bca7-cfaf-4b18-0d73-4e13c1ddd070",
+		"50cf6a69-8559-bf84-8767-8cf2e13c568e"
+	],
+	"folders": [],
+	"timestamp": 1444312665341,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "42d921d6-2058-ff1f-2237-03d219a66a61",
+			"headers": "",
+			"url": "http://localhost:8080/RestfulServiceExample/restful/getSomething?request=Hello Get World",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "dataDelete",
+					"value": "100Delete",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "templateDelete",
+					"value": "oldDelete",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444320896118,
+			"name": "Get Method",
+			"description": "",
+			"collectionId": "e39171a8-04cb-b07f-91e3-f218be724396",
+			"responses": []
+		},
+		{
+			"id": "4fb4bca7-cfaf-4b18-0d73-4e13c1ddd070",
+			"headers": "",
+			"url": "http://localhost:8080/RestfulServiceExample/restful/putSomething",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "data",
+					"value": "100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "template",
+					"value": "old",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444320909460,
+			"name": "Put Method",
+			"description": "",
+			"collectionId": "e39171a8-04cb-b07f-91e3-f218be724396",
+			"responses": []
+		},
+		{
+			"id": "50cf6a69-8559-bf84-8767-8cf2e13c568e",
+			"headers": "",
+			"url": "http://localhost:8080/RestfulServiceExample/restful/deleteSomething",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "dataDelete",
+					"value": "100Delete",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "templateDelete",
+					"value": "oldDelete",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444320913573,
+			"name": "Delete Method",
+			"description": "",
+			"collectionId": "e39171a8-04cb-b07f-91e3-f218be724396",
+			"responses": []
+		},
+		{
+			"id": "c106d2ab-7c94-398d-6adc-225d4f5c4afc",
+			"headers": "",
+			"url": "http://localhost:8080/RestfulServiceExample/restful/postSomething?request=Hello Post World",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444320904605,
+			"name": "Post Method",
+			"description": "",
+			"collectionId": "e39171a8-04cb-b07f-91e3-f218be724396",
+			"responses": []
+		}
+	]
+}
